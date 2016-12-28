@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <in.codingninjas.beacathonregion.utils.RoundedImageView
+        android:id="@+id/layout_item_profile_image_view"
+        android:src="@drawable/profile_placeholder"
+        android:layout_width="64dp"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/layout_item_name_text_view"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
